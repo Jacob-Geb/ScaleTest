@@ -1,0 +1,73 @@
+{
+	"name": "SeansRoverRescue",
+	"displayName": "Seans Rover Rescue",
+	"version": "0.0.1",
+	"config": "src/srr/config",
+
+	"main": [
+		"src/srr/panels/*.js",
+		"src/srr/states/*.js",
+		
+		"src/main.js"
+	],
+
+	"libraries": [
+		"components/normalize-less/normalize.less",
+		"components/preloadjs/lib/preloadjs.min.js",
+		"components/bellhop/dist/bellhop.min.js",
+		"components/soundjs/lib/soundjs.min.js",
+		"components/soundjs/lib/flashaudioplugin.min.js",
+		"components/easeljs/lib/easeljs.min.js",
+		"components/tweenjs/lib/tweenjs.min.js",
+		"components/easeljs/lib/movieclip.min.js",
+		"components/bellhop/dist/bellhop.min.js",
+		"components/jquery/dist/jquery.min.js",
+		"components/springroll/dist/core.min.js",
+		"components/springroll/dist/core.min.css",
+		"components/springroll/dist/modules/container-client.min.js",
+		"components/springroll/dist/modules/animation.min.js",
+		"components/springroll/dist/modules/states.min.js",
+		"components/springroll/dist/modules/sound.min.js",
+		"components/springroll/dist/modules/ui.min.js",
+		"components/springroll/dist/modules/captions.min.js",
+		"components/springroll/dist/modules/captions.min.css",
+		"components/springroll/dist/modules/easeljs-display.min.js",
+		"components/springroll/dist/modules/easeljs-states.min.js",
+		"components/springroll/dist/modules/easeljs-animation.min.js",
+		"components/springroll/dist/modules/easeljs-ui.min.js",
+		"components/springroll-keyboard/dist/keyboard.min.js",
+		"components/springroll/dist/modules/container.min.js"
+	],
+	"librariesDebug": [
+		"components/normalize-less/normalize.less",
+		"components/preloadjs/lib/preloadjs.combined.js",
+		"components/bellhop/dist/bellhop.js",
+		"components/soundjs/lib/soundjs.min.js",
+		"components/soundjs/lib/flashaudioplugin.combined.js",
+		"components/easeljs/lib/easeljs.combined.js",
+		"components/tweenjs/lib/tweenjs.combined.js",
+		"components/easeljs/lib/movieclip.combined.js",
+		"components/bellhop/dist/bellhop.js",
+		"components/jquery/dist/jquery.js",
+		"components/springroll/dist/core.js",
+		"components/springroll/dist/core.css",
+		"components/springroll/dist/modules/debug.js",
+		"components/springroll/dist/modules/debug.css",
+		"components/springroll/dist/modules/container-client.js",
+		"components/springroll/dist/modules/animation.js",
+		"components/springroll/dist/modules/states.js",
+		"components/springroll/dist/modules/sound.js",
+		"components/springroll/dist/modules/ui.js",
+		"components/springroll/dist/modules/captions.js",
+		"components/springroll/dist/modules/captions.css",
+		"components/springroll/dist/modules/easeljs-display.js",
+		"components/springroll/dist/modules/easeljs-states.js",
+		"components/springroll/dist/modules/easeljs-animation.js",
+		"components/springroll/dist/modules/easeljs-ui.js",
+		"components/springroll-keyboard/dist/keyboard.js",
+		"components/springroll/dist/modules/container.js"
+	],
+	"librariesCopy": {
+		"components/soundjs/lib/FlashAudioPlugin.swf": "deploy/assets/swfs/"
+	}
+}

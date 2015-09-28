@@ -1,0 +1,12 @@
+{
+	"game": [
+		{
+			"id":"background",
+			"src":"assets/images/background.png"
+		},
+		{
+			"id":"btn",
+			"src":"assets/images/btn.png"
+		}
+	]
+}
