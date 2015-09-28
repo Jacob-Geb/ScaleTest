@@ -9,8 +9,8 @@
         p.panel = this.panel;
     };
 
-    var s = BaseState.prototype;
-    var p = extend(GameState, BaseState);
+    var p = BaseState.prototype;
+    var s = extend(GameState, BaseState);
 
     namespace("srr.states").GameState = GameState;
 }());

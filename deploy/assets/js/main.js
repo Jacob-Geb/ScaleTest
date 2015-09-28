@@ -12,8 +12,8 @@
         this.btn = null;
     };
 
-    var s = BasePanel.prototype;
-    var p = extend(GamePanel, BasePanel);
+    var p = BasePanel.prototype;
+    var s = extend(GamePanel, BasePanel);
 
     p.setup = function()
     {
@@ -30,6 +30,7 @@
 
     namespace("srr.panels").GamePanel = GamePanel;
 }());
+
 (function()
 {
     var BaseState = include('springroll.easeljs.BaseState');
@@ -41,8 +42,8 @@
         p.panel = this.panel;
     };
 
-    var s = BaseState.prototype;
-    var p = extend(GameState, BaseState);
+    var p = BaseState.prototype;
+    var s = extend(GameState, BaseState);
 
     namespace("srr.states").GameState = GameState;
 }());

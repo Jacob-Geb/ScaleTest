@@ -12,8 +12,8 @@
         this.btn = null;
     };
 
-    var s = BasePanel.prototype;
-    var p = extend(GamePanel, BasePanel);
+    var p = BasePanel.prototype;
+    var s = extend(GamePanel, BasePanel);
 
     p.setup = function()
     {
