@@ -1,2 +1,10 @@
 {
+	"game": {
+		"background": "cover-image",
+		"btn": {
+				"x" : 10,
+				"y" : 10,
+				"align": "top-left"
+		}
+	}
 }

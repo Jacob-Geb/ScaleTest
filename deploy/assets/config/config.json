@@ -11,7 +11,16 @@
 			}
 		]
 	},
-	"scaling": {},
+	"scaling": {
+		"game": {
+			"background": "cover-image",
+			"btn": {
+				"x": 10,
+				"y": 10,
+				"align": "top-left"
+			}
+		}
+	},
 	"scalingSize": {
 		"width": 1060,
 		"height": 720,

@@ -10,7 +10,6 @@
         name: "Seans Rover Rescue",
 		canvasId: "stage",
 	  	resizeElement : "frame",
-
 		state: "game",
 		configPath: "assets/config/config.json",
 		display: EaselJSDisplay,
@@ -19,11 +18,14 @@
 		}
 	});
 
+	window.images = {};
+
 	app.on('init', function()
 	{
 		this.states = {
 			game: new GameState({
-				preload: this.config.assets.game
+				preload: this.config.assets.game,
+				scaling: this.config.scaling.game
 			})
 		};
 	});

@@ -19,13 +19,10 @@
     {
         this.background = new Bitmap(images.background);
         this.addChild(this.background);
-        app.scaling.addItem(this.background, "cover-image");
 
         this.btn = new Button(images.btn);
-        this.btn.x = 200;
-        this.btn.y = 200;
         this.addChild(this.btn);
-        app.scaling.addItem(this.btn);
+        // app.scaling.addItem(this.btn);
     };
 
     namespace("srr.panels").GamePanel = GamePanel;
